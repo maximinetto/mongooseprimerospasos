@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MY APP</title>
+</head>
+<body>
+  
+  
+      <span>Nombre: <%= producto.name %></span>
+      <span>Precio: <%= producto.price %></span>
+      <span>Marca: <%= marca.name %></span>
+    
+
+<form action="/products/create" method="POST">
+  <input type="text" placeholder="Nombre" name="name">
+  <input type="text" placeholder="Precio" name="price">
+  <input type="text" placeholder="Marca" name="brand">
+  <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
